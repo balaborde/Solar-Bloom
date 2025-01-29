@@ -3,6 +3,7 @@ extends Node2D
 signal hovered
 signal hovered_off
 
+var starting_position
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -21,3 +22,7 @@ func _on_area_2d_mouse_entered():
 
 func _on_area_2d_mouse_exited():
 	emit_signal("hovered_off", self)
+
+func animate_card_to_position(new_position):
+	var tween = get_tree().create_tween()
+	tween.tween_property(self, "position", new_position, 0.5)
