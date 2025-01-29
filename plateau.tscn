@@ -17,3 +17,6 @@ mesh = SubResource("PlaneMesh_623v0")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_1nopd")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.895983, 0.444088, 0, -0.444088, 0.895983, 0, 1.26418, 2.74243)
