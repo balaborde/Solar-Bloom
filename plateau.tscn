@@ -11,6 +11,7 @@ data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0
 script = ExtResource("1_ckacb")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
 mesh = SubResource("PlaneMesh_623v0")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
@@ -19,4 +20,7 @@ mesh = SubResource("PlaneMesh_623v0")
 shape = SubResource("ConcavePolygonShape3D_1nopd")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.895983, 0.444088, 0, -0.444088, 0.895983, 0, 1.26418, 2.74243)
+transform = Transform3D(1, 0, 0, 0, 0.895983, 0.444088, 0, -0.444088, 0.895983, 1, 1, 3)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5.24163, 0)
