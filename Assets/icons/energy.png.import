@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwh6oj70lxesj"
-path="res://.godot/imported/deck.jpg.webp-da644647a4c3c10c413d765286457f4b.ctex"
+uid="uid://b46v0vlhiou5v"
+path="res://.godot/imported/energy.png-f57558d92df9c96b8892cf103e8b4a4d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/deck.jpg.webp"
-dest_files=["res://.godot/imported/deck.jpg.webp-da644647a4c3c10c413d765286457f4b.ctex"]
+source_file="res://Assets/icons/energy.png"
+dest_files=["res://.godot/imported/energy.png-f57558d92df9c96b8892cf103e8b4a4d.ctex"]
 
 [params]
 
