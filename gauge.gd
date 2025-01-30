@@ -9,6 +9,7 @@ var p2: float = 50
 func update_texture(p1_prct: float, p2_pcrt: float) -> void:
 	p1 = p1_prct
 	p2 = p2_pcrt
+	texture.frame = round(p1)+1
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -17,8 +18,4 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if p1 > p2:
-		texture.animation = "blue"
-	else :
-		texture.animation = "red"
 	pass

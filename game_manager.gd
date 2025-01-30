@@ -50,7 +50,6 @@ func end_game() -> void:
 	for i in range(1, 15):
 		next_turn()
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -58,4 +57,11 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	# TODO: TEST PURPOSE ONLY, REMOVE LATER
+	if Input.is_key_pressed(KEY_G):
+		var rng = RandomNumberGenerator.new()
+		var nb1 = rng.randf_range(0, 99)
+		var nb2 = 100 - nb1
+		update_players_gauge(nb1, nb2)
+	# Keep below
 	pass
