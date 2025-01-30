@@ -1,32 +1,36 @@
 extends Node2D
 
 const COLLISION_MASK_CARD = 1
-const COLLISION_MASK_CARD_SLOT  = 2
+const COLLISION_MASK_CARD_SLOT = 2
+
 var card_being_dragged
 var screen_size
 var is_hovering_on_card
 
 var player_hand_reference
+var input_manager_reference
 
 func _ready() -> void:
 	screen_size = get_viewport_rect().size
 	player_hand_reference = $"../PlayerHand"
+	#input_manager_reference = $"../InputManager"
+	#$"../InputManager".connect("left_mouse_button_clicked", on_left_mouse_button_clicked())
+	#$"../InputManager".connect("left_mouse_button_released", on_left_mouse_button_released())
 
 
+func on_left_mouse_button_clicked():
+	pass
+	
+
+func on_left_mouse_button_released():
+	pass
+	
+	
 func _process(delta: float) -> void:
 	if card_being_dragged and screen_size and screen_size.x and screen_size.y:
 		var mouse_pos = get_global_mouse_position()
 		card_being_dragged.position = Vector2(clamp(mouse_pos.x, -screen_size.x, screen_size.x), clamp(mouse_pos.y, -screen_size.y, screen_size.y))
 
-func _input(event):
-	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
-		if event.is_pressed():
-			var card = raycast_check_for_card()
-			if card:
-				start_drag(card)
-		else:
-			if card_being_dragged:
-				finish_drag()
 
 func start_drag(card):
 	card_being_dragged = card
@@ -57,7 +61,6 @@ func raycast_check_for_card():
 	parameters.collide_with_areas = true
 	parameters.collision_mask = COLLISION_MASK_CARD
 	var result = space_state.intersect_point(parameters)
-	print (result)
 	if result.size() > 0:
 		# return result[0].collider.get_parent()
 		return get_card_with_highest_z_index(result)
@@ -70,8 +73,8 @@ func raycast_check_for_card_slot():
 	parameters.collide_with_areas = true
 	parameters.collision_mask = COLLISION_MASK_CARD_SLOT
 	var result = space_state.intersect_point(parameters)
-	print (result)
 	if result.size() > 0:
+		print(result)
 		return result[0].collider.get_parent()
 	return null
 	
