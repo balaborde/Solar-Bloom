@@ -29,7 +29,7 @@ func draw_card():
 	var new_card = card_scene.instantiate()
 	new_card.get_node("Attack").text = str(card_database_reference.CARDS[card_drawn_name][0])
 	new_card.get_node("Health").text = str(card_database_reference.CARDS[card_drawn_name][1])
-	new_card.get_node("CardImage").text = str(card_database_reference.CARDS[card_drawn_name][2])
+	new_card.get_node("CardImage").texture = load(str(card_database_reference.CARDS[card_drawn_name][2]))
 	$"../CardManager".add_child(new_card)
 	new_card.name = "Card " + str(player_deck.size()) 
 	player_hand_reference.add_card_to_hand(new_card)
