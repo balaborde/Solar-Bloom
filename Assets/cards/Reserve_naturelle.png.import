@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbghotkd1rvh2"
-path="res://.godot/imported/Reserve_naturelle.png-5227e74e84e2b2f21fe3905e9e747875.ctex"
+path="res://.godot/imported/Reserve_naturelle.png-45be1d0f683cb7da12779752701d01d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/Reserve_naturelle.png"
-dest_files=["res://.godot/imported/Reserve_naturelle.png-5227e74e84e2b2f21fe3905e9e747875.ctex"]
+source_file="res://assets/cards/Reserve_naturelle.png"
+dest_files=["res://.godot/imported/Reserve_naturelle.png-45be1d0f683cb7da12779752701d01d7.ctex"]
 
 [params]
 

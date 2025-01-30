@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdoafufj5q50v"
-path="res://.godot/imported/universite.png-b6026bb50153d63d6b7a276255ac9e90.ctex"
+path="res://.godot/imported/universite.png-1dd3a20039d997a77e6b0b06e7946ee9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/universite.png"
-dest_files=["res://.godot/imported/universite.png-b6026bb50153d63d6b7a276255ac9e90.ctex"]
+source_file="res://assets/cards/universite.png"
+dest_files=["res://.godot/imported/universite.png-1dd3a20039d997a77e6b0b06e7946ee9.ctex"]
 
 [params]
 

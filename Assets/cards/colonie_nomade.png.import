@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b83jp8raxqpm8"
-path="res://.godot/imported/colonie_nomade.png-a6dd2582e754dba14e770de27bf0f5fd.ctex"
+path="res://.godot/imported/colonie_nomade.png-43224e9522889c2478f9948fb0b9ddf7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/colonie_nomade.png"
-dest_files=["res://.godot/imported/colonie_nomade.png-a6dd2582e754dba14e770de27bf0f5fd.ctex"]
+source_file="res://assets/cards/colonie_nomade.png"
+dest_files=["res://.godot/imported/colonie_nomade.png-43224e9522889c2478f9948fb0b9ddf7.ctex"]
 
 [params]
 

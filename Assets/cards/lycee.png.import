@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdvwsthj0xj8f"
-path="res://.godot/imported/lycee.png-9cc5088afead4b3c9608ef20ab8e503a.ctex"
+path="res://.godot/imported/lycee.png-fe66d93c1a6394d7baff3ea35d93d2fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/lycee.png"
-dest_files=["res://.godot/imported/lycee.png-9cc5088afead4b3c9608ef20ab8e503a.ctex"]
+source_file="res://assets/cards/lycee.png"
+dest_files=["res://.godot/imported/lycee.png-fe66d93c1a6394d7baff3ea35d93d2fa.ctex"]
 
 [params]
 

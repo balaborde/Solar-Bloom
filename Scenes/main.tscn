@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Scripts/player_hand.gd" id="4_a2so6"]
 [ext_resource type="Script" path="res://Scripts/deck.gd" id="5_6rksj"]
 [ext_resource type="Script" path="res://Scripts/input_manager.gd" id="5_ig5s0"]
-[ext_resource type="Texture2D" uid="uid://bgyokpwh4hfvo" path="res://Assets/deck.png" id="6_3ri8p"]
+[ext_resource type="Texture2D" uid="uid://bgyokpwh4hfvo" path="res://assets/deck.png" id="6_3ri8p"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7vxw6"]
 size = Vector2(208, 280)

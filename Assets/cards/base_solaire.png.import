@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2ufxbo6w7rla"
-path="res://.godot/imported/base_solaire.png-0c83e0291a47245064a36b82c2db4da8.ctex"
+path="res://.godot/imported/base_solaire.png-35fa9f3cde93c6ec0c1a6fbab6c1f443.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/base_solaire.png"
-dest_files=["res://.godot/imported/base_solaire.png-0c83e0291a47245064a36b82c2db4da8.ctex"]
+source_file="res://assets/cards/base_solaire.png"
+dest_files=["res://.godot/imported/base_solaire.png-35fa9f3cde93c6ec0c1a6fbab6c1f443.ctex"]
 
 [params]
 

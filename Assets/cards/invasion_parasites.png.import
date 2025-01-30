@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7btsx4xlj8s4"
-path="res://.godot/imported/invasion_parasites.png-d8629468bbd5c4c43c2457858deef101.ctex"
+path="res://.godot/imported/invasion_parasites.png-b86c6c64b3d87aed3ec8c0f5fd962824.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/invasion_parasites.png"
-dest_files=["res://.godot/imported/invasion_parasites.png-d8629468bbd5c4c43c2457858deef101.ctex"]
+source_file="res://assets/cards/invasion_parasites.png"
+dest_files=["res://.godot/imported/invasion_parasites.png-b86c6c64b3d87aed3ec8c0f5fd962824.ctex"]
 
 [params]
 

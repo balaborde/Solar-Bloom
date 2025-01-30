@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cixxbesypxn0h"
-path="res://.godot/imported/generateur_nuage.png-ccbf12c2cd05230fedc5d1fe9b313b9b.ctex"
+path="res://.godot/imported/generateur_nuage.png-e8fd031a84064fdb76b4f594e877866b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/generateur_nuage.png"
-dest_files=["res://.godot/imported/generateur_nuage.png-ccbf12c2cd05230fedc5d1fe9b313b9b.ctex"]
+source_file="res://assets/cards/generateur_nuage.png"
+dest_files=["res://.godot/imported/generateur_nuage.png-e8fd031a84064fdb76b4f594e877866b.ctex"]
 
 [params]
 

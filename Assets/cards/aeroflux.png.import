@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://62u60evdh0ff"
-path="res://.godot/imported/aeroflux.png-380db3b4e2813cc41f555178cd6b4a72.ctex"
+path="res://.godot/imported/aeroflux.png-112ce3943b876a6cead0c88369926ef1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/aeroflux.png"
-dest_files=["res://.godot/imported/aeroflux.png-380db3b4e2813cc41f555178cd6b4a72.ctex"]
+source_file="res://assets/cards/aeroflux.png"
+dest_files=["res://.godot/imported/aeroflux.png-112ce3943b876a6cead0c88369926ef1.ctex"]
 
 [params]
 

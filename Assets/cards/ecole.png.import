@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0ry7hmlefvxp"
-path="res://.godot/imported/ecole.png-cc2f5133b1b7d79f08d77d52f656f248.ctex"
+path="res://.godot/imported/ecole.png-1e40d8d3cf130bcae526567aac8277df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/ecole.png"
-dest_files=["res://.godot/imported/ecole.png-cc2f5133b1b7d79f08d77d52f656f248.ctex"]
+source_file="res://assets/cards/ecole.png"
+dest_files=["res://.godot/imported/ecole.png-1e40d8d3cf130bcae526567aac8277df.ctex"]
 
 [params]
 

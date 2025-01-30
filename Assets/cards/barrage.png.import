@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg215lnemk1cd"
-path="res://.godot/imported/barrage.png-8441ea6113795369a2e58e1415a85422.ctex"
+path="res://.godot/imported/barrage.png-9e92a1c1333232138a251a5e395ca7a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/barrage.png"
-dest_files=["res://.godot/imported/barrage.png-8441ea6113795369a2e58e1415a85422.ctex"]
+source_file="res://assets/cards/barrage.png"
+dest_files=["res://.godot/imported/barrage.png-9e92a1c1333232138a251a5e395ca7a0.ctex"]
 
 [params]
 
