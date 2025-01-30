@@ -2,11 +2,15 @@ extends Node2D
 
 const COLLISION_MASK_CARD = 1
 const COLLISION_MASK_CARD_SLOT = 2
+const DEFAULT_CARD_SCALE = 1.6
+const CARD_BIGGER_SCALE = 1.7
+const CARD_SMALLER_SCALE = 1
 
 var screen_size
 var card_being_dragged
 var is_hovering_on_card
-var player_hand_reference
+var player_hand_reference 
+var effect_played_this_turn = false
 
 func _ready() -> void:
 	screen_size = get_viewport_rect().size
@@ -32,24 +36,31 @@ func _process(delta: float) -> void:
 
 func start_drag(card):
 	card_being_dragged = card
-	card.scale = Vector2(0.5, 0.5)
+	card.scale = Vector2(DEFAULT_CARD_SCALE, DEFAULT_CARD_SCALE)
 
 
 func finish_drag():
-	if card_being_dragged:
-		card_being_dragged.scale = Vector2(1.05, 1.05)
-		
+	card_being_dragged.scale = Vector2(CARD_BIGGER_SCALE, CARD_BIGGER_SCALE)
 	var card_slot_found = raycast_check_for_card_slot()
+	# Check if card is an effect and already played
+	if card_being_dragged.type == "E":
+		if effect_played_this_turn:
+			player_hand_reference.add_card_to_hand(card_being_dragged)
+			card_being_dragged = null
+			return
+		else:
+			effect_played_this_turn = true
 	# Card dropped in empty card slot.
 	if card_slot_found and not card_slot_found.card_in_slot:
-		card_being_dragged.scale = Vector2(0.5, 0.5)
+		is_hovering_on_card = false
+		card_being_dragged.scale = Vector2(CARD_SMALLER_SCALE, CARD_SMALLER_SCALE)
+		card_being_dragged.z_index = -1
+		card_being_dragged.placed = card_slot_found
 		player_hand_reference.remove_card_from_hand(card_being_dragged)
 		card_being_dragged.position = card_slot_found.position
 		card_being_dragged.get_node("Area2D/CollisionShape2D").disabled = true
 		card_slot_found.card_in_slot = true
-	
 	else:
-		# card_being_dragged.animate_card_to_position(card_being_dragged.starting_position)
 		player_hand_reference.add_card_to_hand(card_being_dragged)
 	
 	card_being_dragged = null
@@ -107,7 +118,7 @@ func on_card_hovered(card):
 
 
 func on_card_hovered_off(card):
-	if !card_being_dragged:
+	if !card.placed and !card_being_dragged:
 		highlight_card(card, false)
 		# Check if hovered off card straight on to another card
 		var new_card_hovered = raycast_check_for_card()
@@ -119,8 +130,8 @@ func on_card_hovered_off(card):
 
 func highlight_card(card, hovered):
 	if hovered:
-		card.scale = Vector2(1.05, 1.05)
+		card.scale = Vector2(CARD_BIGGER_SCALE, CARD_BIGGER_SCALE)
 		card.z_index = 2
 	else:
-		card.scale = Vector2(1, 1)
+		card.scale = Vector2(DEFAULT_CARD_SCALE, DEFAULT_CARD_SCALE)
 		card.z_index = 1

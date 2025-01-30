@@ -1,7 +1,7 @@
 extends Node2D
 
 const CARD_WIDTH = 140
-const HAND_Y_POSITION = 450
+const HAND_Y_POSITION = 500
 var player_hand = []
 
 func _ready():

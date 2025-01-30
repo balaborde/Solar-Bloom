@@ -18,191 +18,193 @@ script = ExtResource("5_ig5s0")
 [node name="CardManager" type="Node2D" parent="."]
 script = ExtResource("1_qeg6w")
 
-[node name="CardSlot11" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlots" type="Node2D" parent="."]
+
+[node name="CardSlot11" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-48, 62)
 
-[node name="CardSlot12" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot12" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-229, 62)
 
-[node name="CardSlot13" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot13" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-139, 62)
 
-[node name="CardSlot14" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot14" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-320, 62)
 
-[node name="CardSlot15" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot15" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-413, 62)
 
-[node name="CardSlot6" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot6" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-49, 196)
 
-[node name="CardSlot7" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot7" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-230, 196)
 
-[node name="CardSlot8" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot8" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-140, 196)
 
-[node name="CardSlot9" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot9" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-321, 196)
 
-[node name="CardSlot10" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot10" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-414, 196)
 
-[node name="CardSlot5" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot5" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-49, 332)
 
-[node name="CardSlot4" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot4" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-230, 332)
 
-[node name="CardSlot3" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot3" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-140, 332)
 
-[node name="CardSlot2" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot2" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-321, 332)
 
-[node name="CardSlot31" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot31" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(408, 63)
 
-[node name="CardSlot32" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot32" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(227, 63)
 
-[node name="CardSlot33" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot33" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(317, 63)
 
-[node name="CardSlot34" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot34" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(136, 63)
 
-[node name="CardSlot35" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot35" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(43, 63)
 
-[node name="CardSlot36" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot36" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(407, 197)
 
-[node name="CardSlot37" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot37" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(226, 197)
 
-[node name="CardSlot38" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot38" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(316, 197)
 
-[node name="CardSlot39" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot39" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(135, 197)
 
-[node name="CardSlot40" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot40" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(42, 197)
 
-[node name="CardSlot41" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot41" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(407, 333)
 
-[node name="CardSlot42" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot42" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(226, 333)
 
-[node name="CardSlot43" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot43" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(316, 333)
 
-[node name="CardSlot44" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot44" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(135, 333)
 
-[node name="CardSlot45" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot45" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(42, 333)
 
-[node name="CardSlot16" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot16" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-46, -341)
 
-[node name="CardSlot17" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot17" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-227, -341)
 
-[node name="CardSlot18" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot18" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-137, -341)
 
-[node name="CardSlot19" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot19" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-318, -341)
 
-[node name="CardSlot20" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot20" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-411, -341)
 
-[node name="CardSlot21" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot21" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-47, -207)
 
-[node name="CardSlot22" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot22" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-228, -207)
 
-[node name="CardSlot23" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot23" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-138, -207)
 
-[node name="CardSlot24" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot24" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-319, -207)
 
-[node name="CardSlot25" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot25" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-412, -207)
 
-[node name="CardSlot26" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot26" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-47, -71)
 
-[node name="CardSlot27" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot27" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-228, -71)
 
-[node name="CardSlot28" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot28" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-138, -71)
 
-[node name="CardSlot29" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot29" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-319, -71)
 
-[node name="CardSlot" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-414, 332)
 
-[node name="CardSlot46" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot46" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(410, -340)
 
-[node name="CardSlot47" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot47" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(229, -340)
 
-[node name="CardSlot48" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot48" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(319, -340)
 
-[node name="CardSlot49" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot49" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(138, -340)
 
-[node name="CardSlot50" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot50" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(45, -340)
 
-[node name="CardSlot51" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot51" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(409, -206)
 
-[node name="CardSlot52" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot52" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(228, -206)
 
-[node name="CardSlot53" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot53" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(318, -206)
 
-[node name="CardSlot54" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot54" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(137, -206)
 
-[node name="CardSlot55" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot55" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(44, -206)
 
-[node name="CardSlot56" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot56" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(409, -70)
 
-[node name="CardSlot57" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot57" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(228, -70)
 
-[node name="CardSlot58" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot58" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(318, -70)
 
-[node name="CardSlot59" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot59" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(137, -70)
 
-[node name="CardSlot60" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot60" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(44, -70)
 
-[node name="CardSlot30" parent="." instance=ExtResource("3_r7xui")]
+[node name="CardSlot30" parent="CardSlots" instance=ExtResource("3_r7xui")]
 position = Vector2(-412, -71)
 
 [node name="PlayerHand" type="Node2D" parent="."]
 script = ExtResource("4_a2so6")
 
 [node name="Deck" type="Node2D" parent="."]
-position = Vector2(-806, 500)
+position = Vector2(-885, 500)
 scale = Vector2(0.5, 0.5)
 script = ExtResource("5_6rksj")
 
@@ -219,13 +221,38 @@ collision_mask = 4
 shape = SubResource("RectangleShape2D_7vxw6")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Deck"]
-offset_left = 116.0
-offset_top = -112.0
-offset_right = 134.0
-offset_bottom = -88.0
+offset_left = -46.0
+offset_top = -120.0
+offset_right = -28.0
+offset_bottom = -96.0
 scale = Vector2(10, 10)
 text = "0"
 metadata/_edit_use_anchors_ = true
+
+[node name="OpponentDeck" type="Node2D" parent="."]
+position = Vector2(885, -500)
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="OpponentDeck"]
+z_index = -2
+scale = Vector2(2, 2)
+texture = ExtResource("6_3ri8p")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="OpponentDeck"]
+offset_left = -46.0
+offset_top = -120.0
+offset_right = -28.0
+offset_bottom = -96.0
+scale = Vector2(10, 10)
+text = "0"
+metadata/_edit_use_anchors_ = true
+
+[node name="EndTurnButton" type="Button" parent="."]
+offset_left = 552.0
+offset_top = -16.0
+offset_right = 630.0
+offset_bottom = 15.0
+text = "End Turn"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.5, 1.5)
