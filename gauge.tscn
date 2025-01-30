@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlexywrfgeot"]
+
+[ext_resource type="Script" path="res://gauge.gd" id="1_tx1lp"]
+[ext_resource type="Texture2D" uid="uid://l8r4pi5maf5i" path="res://Gauge.png" id="2_v4ty4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6fmd"]
+atlas = ExtResource("2_v4ty4")
+region = Rect2(0, 0, 25, 102)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mti8q"]
+atlas = ExtResource("2_v4ty4")
+region = Rect2(25, 0, 25, 102)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m7n4e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6fmd")
+}],
+"loop": true,
+"name": &"blue",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mti8q")
+}],
+"loop": true,
+"name": &"red",
+"speed": 5.0
+}]
+
+[node name="Gauge" type="Node2D"]
+script = ExtResource("1_tx1lp")
+
+[node name="texture" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_m7n4e")
+animation = &"blue"

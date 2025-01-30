@@ -90,6 +90,12 @@ func on_card_hovered_off(card):
 
 
 func highlight_card(card, hovered):
+	# TODO: TEST PURPOSE ONLY, REMOVE LATER
+	var rng = RandomNumberGenerator.new()
+	var nb1 = rng.randf_range(0, 10)
+	var nb2 = rng.randf_range(0, 10)
+	get_parent().update_players_gauge(nb1, nb2)
+	# Keep below
 	if hovered:
 		card.scale = Vector2(1.05, 1.05)
 		card.z_index = 2
