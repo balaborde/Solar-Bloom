@@ -18,5 +18,23 @@ texture = ExtResource("2_4sirh")
 position = Vector2(0.5, 2)
 shape = SubResource("RectangleShape2D_lsccy")
 
+[node name="Attack" type="RichTextLabel" parent="."]
+modulate = Color(1, 0, 0, 1)
+offset_left = 108.0
+offset_top = -393.0
+offset_right = 152.0
+offset_bottom = -364.0
+scale = Vector2(5, 5)
+text = "0"
+
+[node name="Health" type="RichTextLabel" parent="."]
+modulate = Color(1, 0, 0, 1)
+offset_left = -283.0
+offset_top = -400.0
+offset_right = -226.0
+offset_bottom = -375.0
+scale = Vector2(5, 5)
+text = "0"
+
 [connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
 [connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]
