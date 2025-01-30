@@ -5,7 +5,7 @@ const CARD_SCENE_PATH = "res://Scenes/card.tscn"
 
 var player_hand_reference
 
-var player_deck = ["Éolienne"]
+var player_deck = ["Éolienne", "Éolienne", "Éolienne"]
 
 func _ready():
 	player_hand_reference = $"../PlayerHand"

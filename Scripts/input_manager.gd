@@ -4,7 +4,7 @@ signal left_mouse_button_clicked
 signal left_mouse_button_released
 
 const COLLISION_MASK_CARD = 1
-const COLLISION_MASK_DECK  = 3
+const COLLISION_MASK_DECK  = 4
 const COLLISION_MASK_SLOT = 2
 
 var card_manager_reference
@@ -21,16 +21,6 @@ func _input(event):
 			raycast_at_cursor()
 		else:
 			emit_signal("left_mouse_button_released")
-
-#func _input(event):
-	#if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
-		#if event.is_pressed():
-			#var card = raycast_check_for_card()
-			#if card:
-				#start_drag(card)
-		#else:
-			#if card_being_dragged:
-				#finish_drag()
 
 
 func raycast_at_cursor():
@@ -54,5 +44,3 @@ func raycast_at_cursor():
 		# Slot clicked.
 		#elif result_collection_mask == COLLISION_MASK_SLOT:
 		#	pass
-		else:
-			card_manager_reference.finish_drag()
