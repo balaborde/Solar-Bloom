@@ -7,7 +7,29 @@ var player_hand_reference
 var card_database_reference
 var drawn_card_this_turn = false
 
-var player_deck = ["Hacktivisme Écologique", "Vent Violent", "Éolienne", "Floraison Exponentielle", "Pluie"]
+var player_deck = [
+	"Éolienne", "Éolienne", 
+	"Vents Violents", "Vents Violents", 
+	"Hacktivisme Écologique", "Hacktivisme Écologique", 
+	"Floraison Exponentielle", "Floraison Exponentielle", 
+	"Pluie", "Pluie", 
+	"Séisme", "Séisme", 
+	"Maison", "Maison", 
+	"Générateur de Nuage", "Générateur de Nuage", 
+	"Hôpital", "Hôpital", 
+	"Invasion de Parasites", "Invasion de Parasites", 
+	"Ferme Aquaponique", "Ferme Aquaponique", 
+	"Réserve Naturelle", "Réserve Naturelle", 
+	"Panneau Solaire", "Panneau Solaire", 
+	"Base Solaire", "Base Solaire", 
+	"Petit Labo", "Petit Labo", 
+	"Éco Labo", "Éco Labo", 
+	"Colonie Nomade", "Colonie Nomade", 
+	"Barrage", "Barrage", 
+	"École", "École", 
+	"Lycée", "Lycée", 
+	"Université", "Université"
+]
 
 func _ready():
 	player_deck.shuffle()
@@ -36,8 +58,10 @@ func draw_card():
 	$RichTextLabel.text = str(player_deck.size())
 	var card_scene = preload(CARD_SCENE_PATH)
 	var new_card = card_scene.instantiate()
-	new_card.get_node("CardImage").texture = load("res://Assets/cards/" + card_database_reference.CARDS[card_drawn_name][0] + ".png")
-	new_card.type = card_database_reference.CARDS[card_drawn_name][1]
+	new_card.get_node("CardImage").texture = load("res://Assets/cards/" + card_database_reference.CARDS_TMP[card_drawn_name][1] + ".png")
+	new_card.type = card_database_reference.CARDS_TMP[card_drawn_name][2]
+	new_card.get_node("Description").text = card_database_reference.CARDS_TMP[card_drawn_name][3]
+	
 	$"../CardManager".add_child(new_card)
 	new_card.name = "Card " + str(player_deck.size())
 	player_hand_reference.add_card_to_hand(new_card)

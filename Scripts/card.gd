@@ -19,10 +19,16 @@ func _process(delta):
 
 
 func _on_area_2d_mouse_entered():
+	var anim_player = self.get_node("AnimationPlayer")
+	if not anim_player.is_playing() or anim_player.current_animation == "out_hover_card":
+		anim_player.play("in_hover_card")
 	emit_signal("hovered", self)
 
 
 func _on_area_2d_mouse_exited():
+	var anim_player = self.get_node("AnimationPlayer")
+	if not anim_player.is_playing() or anim_player.current_animation == "in_hover_card":
+		anim_player.play("out_hover_card")
 	emit_signal("hovered_off", self)
 
 func animate_card_to_position(new_position):
