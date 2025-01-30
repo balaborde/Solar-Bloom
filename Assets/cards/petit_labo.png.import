@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb6r5gela5vmy"
-path="res://.godot/imported/stone.png-04cf0b7aae2f579aa79dd41e4bc59060.ctex"
+uid="uid://dnbbevvd6bfx5"
+path="res://.godot/imported/petit_labo.png-08fface764a318269ca7be8cfc8d111b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/stone.png"
-dest_files=["res://.godot/imported/stone.png-04cf0b7aae2f579aa79dd41e4bc59060.ctex"]
+source_file="res://Assets/cards/petit_labo.png"
+dest_files=["res://.godot/imported/petit_labo.png-08fface764a318269ca7be8cfc8d111b.ctex"]
 
 [params]
 

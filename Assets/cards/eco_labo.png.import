@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0dooajfxv34k"
-path="res://.godot/imported/dirt.png-e6f0d85414ed8662aa7994b74af1ecae.ctex"
+uid="uid://ddtu67hcpc4c7"
+path="res://.godot/imported/eco_labo.png-219f35ea411a74cdd60b2a6f56a5bbd4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/dirt.png"
-dest_files=["res://.godot/imported/dirt.png-e6f0d85414ed8662aa7994b74af1ecae.ctex"]
+source_file="res://Assets/cards/eco_labo.png"
+dest_files=["res://.godot/imported/eco_labo.png-219f35ea411a74cdd60b2a6f56a5bbd4.ctex"]
 
 [params]
 

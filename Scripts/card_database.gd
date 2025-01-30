@@ -1,6 +1,8 @@
 # Replace with true stats.
-const CARDS = { # Attack, Health
-	"Éolienne" : [2, 3, "res://Assets/ex-card-4_1.png.webp"],
-	"Champs" : [1, 11, "res://Assets/ex-card-4_1.png.webp"],
-	"École" : [5, 7, "res://Assets/ex-card-4_1.png.webp"]
+const CARDS = { # Attack, Health, ImageId
+	"Éolienne" : [2, 3, "eolienne"],
+	"Floraison Exponentielle" : [1, 11, "floraison_exp"],
+	"Hacktivisme Écologique" : [5, 7, "hacktivisme_eco"],
+	"Pluie" : [5, 7, "pluie"],
+	"Vent Violent": [5, 7, "vent_violent"],
 }

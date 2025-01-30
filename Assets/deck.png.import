@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://beyapjwgmpqwv"
-path="res://.godot/imported/waterV1.png-2ffaab23cdf9d795cd0fc23bdca03d7c.ctex"
+uid="uid://bgyokpwh4hfvo"
+path="res://.godot/imported/deck.png-3945313f9b61be5dd9d867ca3ea84e7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/waterV1.png"
-dest_files=["res://.godot/imported/waterV1.png-2ffaab23cdf9d795cd0fc23bdca03d7c.ctex"]
+source_file="res://Assets/deck.png"
+dest_files=["res://.godot/imported/deck.png-3945313f9b61be5dd9d867ca3ea84e7a.ctex"]
 
 [params]
 

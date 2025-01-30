@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7u57bxvvgt5w"
-path="res://.godot/imported/pavement1.png-7b4ce339f6b2920cb2b49f488495208f.ctex"
+uid="uid://cc5dwy1j0cvx4"
+path="res://.godot/imported/pluie.png-dec17c1b934bedd9cc23e011ea01c87d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/pavement1.png"
-dest_files=["res://.godot/imported/pavement1.png-7b4ce339f6b2920cb2b49f488495208f.ctex"]
+source_file="res://Assets/cards/pluie.png"
+dest_files=["res://.godot/imported/pluie.png-dec17c1b934bedd9cc23e011ea01c87d.ctex"]
 
 [params]
 

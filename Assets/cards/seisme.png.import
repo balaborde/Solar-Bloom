@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cheyd77ioufty"
-path="res://.godot/imported/stone2.png-8c9112f976b3d64d9e89dd3559186d0b.ctex"
+uid="uid://be20cb57kvggo"
+path="res://.godot/imported/seisme.png-982b203efc86d7a20c1800a7f1f74e06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/stone2.png"
-dest_files=["res://.godot/imported/stone2.png-8c9112f976b3d64d9e89dd3559186d0b.ctex"]
+source_file="res://Assets/cards/seisme.png"
+dest_files=["res://.godot/imported/seisme.png-982b203efc86d7a20c1800a7f1f74e06.ctex"]
 
 [params]
 

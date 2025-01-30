@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bq5ej3tu0e0pg"
-path="res://.godot/imported/wheat.png-4179575e32a8aef796c42828b2823981.ctex"
+uid="uid://b2ufxbo6w7rla"
+path="res://.godot/imported/base_solaire.png-0c83e0291a47245064a36b82c2db4da8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/wheat.png"
-dest_files=["res://.godot/imported/wheat.png-4179575e32a8aef796c42828b2823981.ctex"]
+source_file="res://Assets/cards/base_solaire.png"
+dest_files=["res://.godot/imported/base_solaire.png-0c83e0291a47245064a36b82c2db4da8.ctex"]
 
 [params]
 

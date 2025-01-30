@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl3mhjgk2r7kp"
-path="res://.godot/imported/pavement2.png-e7abeef0eb24020b29c303011e5934b1.ctex"
+uid="uid://62u60evdh0ff"
+path="res://.godot/imported/aeroflux.png-380db3b4e2813cc41f555178cd6b4a72.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/pavement2.png"
-dest_files=["res://.godot/imported/pavement2.png-e7abeef0eb24020b29c303011e5934b1.ctex"]
+source_file="res://Assets/cards/aeroflux.png"
+dest_files=["res://.godot/imported/aeroflux.png-380db3b4e2813cc41f555178cd6b4a72.ctex"]
 
 [params]
 
