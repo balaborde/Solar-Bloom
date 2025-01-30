@@ -1,14 +1,11 @@
 extends Node2D
 
-const CARD_WIDTH = 300
-const HAND_Y_POSITION = 890
+const CARD_WIDTH = 140
+const HAND_Y_POSITION = 200
 var player_hand = []
-var center_screen_x
-
 
 func _ready():
-	center_screen_x = get_viewport_rect().size.x / 2
-
+	pass
 
 func add_card_to_hand(card):
 	if card not in player_hand:
@@ -29,7 +26,7 @@ func update_hand_positions():
 
 func calculate_card_position(index):
 	var total_width = (player_hand.size() -1) * CARD_WIDTH
-	var x_offset = center_screen_x + index * CARD_WIDTH - total_width / 2
+	var x_offset = index * CARD_WIDTH - total_width / 2
 	return x_offset
 
 

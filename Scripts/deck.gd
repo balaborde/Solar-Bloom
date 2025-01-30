@@ -31,6 +31,6 @@ func draw_card():
 	new_card.get_node("Health").text = str(card_database_reference.CARDS[card_drawn_name][1])
 	new_card.get_node("CardImage").texture = load(str("res://Assets/cards/" + card_database_reference.CARDS[card_drawn_name][2] + ".png"))
 	$"../CardManager".add_child(new_card)
-	new_card.name = "Card " + str(player_deck.size()) 
+	new_card.name = "Card " + str(player_deck.size())
 	player_hand_reference.add_card_to_hand(new_card)
 	new_card.get_node("AnimationPlayer").play("card_flip")

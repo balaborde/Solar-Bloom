@@ -32,7 +32,7 @@ func _process(delta: float) -> void:
 
 func start_drag(card):
 	card_being_dragged = card
-	card.scale = Vector2(1, 1)
+	card.scale = Vector2(0.5, 0.5)
 
 
 func finish_drag():
@@ -42,6 +42,7 @@ func finish_drag():
 	var card_slot_found = raycast_check_for_card_slot()
 	# Card dropped in empty card slot.
 	if card_slot_found and not card_slot_found.card_in_slot:
+		card_being_dragged.scale = Vector2(0.5, 0.5)
 		player_hand_reference.remove_card_from_hand(card_being_dragged)
 		card_being_dragged.position = card_slot_found.position
 		card_being_dragged.get_node("Area2D/CollisionShape2D").disabled = true
