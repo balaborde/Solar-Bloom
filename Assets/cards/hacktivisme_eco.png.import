@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fmc1ak3y2t67"
-path="res://.godot/imported/hacktivisme_eco.png-f06bd1ded1f0d5d42231f0ffafebdd46.ctex"
+path="res://.godot/imported/hacktivisme_eco.png-cd28b852fb7ef0513d7bd6d1934abf46.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cards/hacktivisme_eco.png"
-dest_files=["res://.godot/imported/hacktivisme_eco.png-f06bd1ded1f0d5d42231f0ffafebdd46.ctex"]
+source_file="res://Assets/cards/hacktivisme_eco.png"
+dest_files=["res://.godot/imported/hacktivisme_eco.png-cd28b852fb7ef0513d7bd6d1934abf46.ctex"]
 
 [params]
 

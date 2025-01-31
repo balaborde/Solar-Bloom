@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://begb8ottjv3eu"
-path="res://.godot/imported/ferme_aquaponique.png-2fdd959e7580ebb12aa4af24c703ca03.ctex"
+path="res://.godot/imported/ferme_aquaponique.png-6a5aa47181947215881014fa0f08cbcd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cards/ferme_aquaponique.png"
-dest_files=["res://.godot/imported/ferme_aquaponique.png-2fdd959e7580ebb12aa4af24c703ca03.ctex"]
+source_file="res://Assets/cards/ferme_aquaponique.png"
+dest_files=["res://.godot/imported/ferme_aquaponique.png-6a5aa47181947215881014fa0f08cbcd.ctex"]
 
 [params]
 

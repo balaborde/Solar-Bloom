@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dykxwwank338l"
-path="res://.godot/imported/PIXBOB LITE.ttf-a0d80a9170a063dc72d00ef131f7d79a.fontdata"
+path="res://.godot/imported/PIXBOB LITE.ttf-507c0221cb7edbc6044ab656e27dd4f5.fontdata"
 
 [deps]
 
-source_file="res://assets/PIXBOB LITE.ttf"
-dest_files=["res://.godot/imported/PIXBOB LITE.ttf-a0d80a9170a063dc72d00ef131f7d79a.fontdata"]
+source_file="res://Assets/PIXBOB LITE.ttf"
+dest_files=["res://.godot/imported/PIXBOB LITE.ttf-507c0221cb7edbc6044ab656e27dd4f5.fontdata"]
 
 [params]
 

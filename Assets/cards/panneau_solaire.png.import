@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgm7otyn8ddwa"
-path="res://.godot/imported/panneau_solaire.png-1e391abde88a72fecf1c5919e729dc0f.ctex"
+path="res://.godot/imported/panneau_solaire.png-399da8d604382962b9d1b2ab1274e13b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cards/panneau_solaire.png"
-dest_files=["res://.godot/imported/panneau_solaire.png-1e391abde88a72fecf1c5919e729dc0f.ctex"]
+source_file="res://Assets/cards/panneau_solaire.png"
+dest_files=["res://.godot/imported/panneau_solaire.png-399da8d604382962b9d1b2ab1274e13b.ctex"]
 
 [params]
 

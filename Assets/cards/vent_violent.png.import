@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh8bovkp1rq2d"
-path="res://.godot/imported/vent_violent.png-37a1f22609d6e489d72ad8faacc8f00e.ctex"
+path="res://.godot/imported/vent_violent.png-f3de30388abd351af546b2ebdc7e9d3c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cards/vent_violent.png"
-dest_files=["res://.godot/imported/vent_violent.png-37a1f22609d6e489d72ad8faacc8f00e.ctex"]
+source_file="res://Assets/cards/vent_violent.png"
+dest_files=["res://.godot/imported/vent_violent.png-f3de30388abd351af546b2ebdc7e9d3c.ctex"]
 
 [params]
 

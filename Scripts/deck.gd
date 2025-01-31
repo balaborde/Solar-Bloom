@@ -13,22 +13,22 @@ var player_deck = [
 	"Hacktivisme Écologique", "Hacktivisme Écologique", 
 	"Floraison Exponentielle", "Floraison Exponentielle", 
 	"Pluie", "Pluie", 
-	"Séisme", "Séisme", 
-	"Maison", "Maison", 
-	"Générateur de Nuage", "Générateur de Nuage", 
+	#"Séisme", "Séisme", 
+	#"Maison", "Maison", 
+	#"Générateur de Nuage", "Générateur de Nuage", 
 	"Hôpital", "Hôpital", 
 	"Invasion de Parasites", "Invasion de Parasites", 
 	"Ferme Aquaponique", "Ferme Aquaponique", 
-	"Réserve Naturelle", "Réserve Naturelle", 
+	#"Réserve Naturelle", "Réserve Naturelle", 
 	"Panneau Solaire", "Panneau Solaire", 
 	"Base Solaire", "Base Solaire", 
-	"Petit Labo", "Petit Labo", 
-	"Éco Labo", "Éco Labo", 
-	"Colonie Nomade", "Colonie Nomade", 
+	#"Petit Labo", "Petit Labo", 
+	#"Éco Labo", "Éco Labo", 
+	#"Colonie Nomade", "Colonie Nomade", 
 	"Barrage", "Barrage", 
-	"École", "École", 
-	"Lycée", "Lycée", 
-	"Université", "Université"
+	#"École", "École", 
+	#"Lycée", "Lycée", 
+	#"Université", "Université"
 ]
 
 func _ready():

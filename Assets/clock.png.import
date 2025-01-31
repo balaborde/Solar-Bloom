@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://62u60evdh0ff"
-path="res://.godot/imported/aeroflux.png-380db3b4e2813cc41f555178cd6b4a72.ctex"
+uid="uid://rlswio0qwwjd"
+path="res://.godot/imported/clock.png-7ad1ce8cb7f95f70624fdd7b9a42eda6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/cards/aeroflux.png"
-dest_files=["res://.godot/imported/aeroflux.png-380db3b4e2813cc41f555178cd6b4a72.ctex"]
+source_file="res://Assets/clock.png"
+dest_files=["res://.godot/imported/clock.png-7ad1ce8cb7f95f70624fdd7b9a42eda6.ctex"]
 
 [params]
 

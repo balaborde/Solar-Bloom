@@ -1,17 +1,36 @@
-[gd_scene load_steps=11 format=3 uid="uid://bb6gamxkwbyou"]
+[gd_scene load_steps=17 format=3 uid="uid://bb6gamxkwbyou"]
 
 [ext_resource type="Script" path="res://Scripts/card_manager.gd" id="1_qeg6w"]
 [ext_resource type="PackedScene" uid="uid://b81yow0quoi5b" path="res://Scenes/card_slot.tscn" id="3_r7xui"]
 [ext_resource type="Script" path="res://Scripts/player_hand.gd" id="4_a2so6"]
 [ext_resource type="Script" path="res://Scripts/enemy_hand.gd" id="5_2jb51"]
+[ext_resource type="Texture2D" uid="uid://cibs26h2b1u48" path="res://Assets/icons/bio.png" id="5_3r1im"]
 [ext_resource type="Script" path="res://Scripts/deck.gd" id="5_6rksj"]
 [ext_resource type="Script" path="res://Scripts/input_manager.gd" id="5_ig5s0"]
 [ext_resource type="Texture2D" uid="uid://bgyokpwh4hfvo" path="res://Assets/deck.png" id="6_3ri8p"]
+[ext_resource type="Texture2D" uid="uid://b46v0vlhiou5v" path="res://Assets/icons/energy.png" id="6_okamq"]
+[ext_resource type="Texture2D" uid="uid://emcjeoex5142" path="res://Assets/icons/social.png" id="7_22k2h"]
 [ext_resource type="Script" path="res://Scripts/battle_manager.gd" id="7_ecy0t"]
 [ext_resource type="Script" path="res://Scripts/enemy_deck.gd" id="8_76mcv"]
+[ext_resource type="Texture2D" uid="uid://rlswio0qwwjd" path="res://Assets/clock.png" id="14_0p8dj"]
+[ext_resource type="PackedScene" uid="uid://ckbjdaldgx73j" path="res://Scenes/gauge.tscn" id="15_mlxlj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7vxw6"]
 size = Vector2(208, 280)
+
+[sub_resource type="GDScript" id="GDScript_ugnve"]
+script/source = "extends Timer
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
 
 [node name="Main" type="Node2D"]
 
@@ -206,11 +225,97 @@ position = Vector2(-412, -71)
 [node name="PlayerHand" type="Node2D" parent="."]
 script = ExtResource("4_a2so6")
 
+[node name="PlayerRessources" type="Node2D" parent="."]
+
+[node name="Bio" type="Sprite2D" parent="PlayerRessources"]
+position = Vector2(-688, 160)
+scale = Vector2(3, 3)
+texture = ExtResource("5_3r1im")
+
+[node name="Energy" type="Sprite2D" parent="PlayerRessources"]
+position = Vector2(-688, 220)
+scale = Vector2(3.3, 3.3)
+texture = ExtResource("6_okamq")
+
+[node name="Social" type="Sprite2D" parent="PlayerRessources"]
+position = Vector2(-688, 280)
+scale = Vector2(3, 3)
+texture = ExtResource("7_22k2h")
+
+[node name="SocialLabel" type="RichTextLabel" parent="PlayerRessources"]
+offset_left = -651.0
+offset_top = 261.0
+offset_right = -558.0
+offset_bottom = 309.0
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="EnergyLabel" type="RichTextLabel" parent="PlayerRessources"]
+offset_left = -651.0
+offset_top = 200.0
+offset_right = -558.0
+offset_bottom = 248.0
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="BioLabel" type="RichTextLabel" parent="PlayerRessources"]
+offset_left = -651.0
+offset_top = 138.0
+offset_right = -558.0
+offset_bottom = 186.0
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="EnemyRessources" type="Node2D" parent="."]
+position = Vector2(1602, -524)
+
+[node name="Bio" type="Sprite2D" parent="EnemyRessources"]
+position = Vector2(-910, 249)
+scale = Vector2(3, 3)
+texture = ExtResource("5_3r1im")
+
+[node name="Energy" type="Sprite2D" parent="EnemyRessources"]
+position = Vector2(-910, 309)
+scale = Vector2(3.3, 3.3)
+texture = ExtResource("6_okamq")
+
+[node name="Social" type="Sprite2D" parent="EnemyRessources"]
+position = Vector2(-910, 369)
+scale = Vector2(3, 3)
+texture = ExtResource("7_22k2h")
+
+[node name="SocialLabel" type="RichTextLabel" parent="EnemyRessources"]
+offset_left = -992.0
+offset_top = 352.0
+offset_right = -899.0
+offset_bottom = 400.0
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+metadata/_edit_use_anchors_ = true
+
+[node name="EnergyLabel" type="RichTextLabel" parent="EnemyRessources"]
+offset_left = -994.0
+offset_top = 289.0
+offset_right = -901.0
+offset_bottom = 337.0
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+metadata/_edit_use_anchors_ = true
+
+[node name="BioLabel" type="RichTextLabel" parent="EnemyRessources"]
+offset_left = -994.0
+offset_top = 229.0
+offset_right = -901.0
+offset_bottom = 277.0
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+metadata/_edit_use_anchors_ = true
+
 [node name="EnemyHand" type="Node2D" parent="."]
 script = ExtResource("5_2jb51")
 
 [node name="Deck" type="Node2D" parent="."]
-position = Vector2(-885, 500)
+position = Vector2(-657, 409)
 scale = Vector2(0.5, 0.5)
 script = ExtResource("5_6rksj")
 
@@ -232,11 +337,12 @@ offset_top = -120.0
 offset_right = -28.0
 offset_bottom = -96.0
 scale = Vector2(10, 10)
+theme_override_font_sizes/normal_font_size = 8
 text = "0"
 metadata/_edit_use_anchors_ = true
 
 [node name="EnemyDeck" type="Node2D" parent="."]
-position = Vector2(885, -500)
+position = Vector2(663, -411)
 scale = Vector2(0.5, 0.5)
 script = ExtResource("8_76mcv")
 
@@ -251,14 +357,15 @@ offset_top = -120.0
 offset_right = -28.0
 offset_bottom = -96.0
 scale = Vector2(10, 10)
+theme_override_font_sizes/normal_font_size = 8
 text = "0"
 metadata/_edit_use_anchors_ = true
 
 [node name="EndTurnButton" type="Button" parent="."]
-offset_left = 552.0
-offset_top = -16.0
-offset_right = 630.0
-offset_bottom = 15.0
+offset_left = 566.0
+offset_top = 36.0
+offset_right = 644.0
+offset_bottom = 67.0
 text = "End Turn"
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -268,5 +375,22 @@ zoom = Vector2(1.5, 1.5)
 script = ExtResource("7_ecy0t")
 
 [node name="BattleTimer" type="Timer" parent="."]
+script = SubResource("GDScript_ugnve")
+
+[node name="TimeLabel" type="RichTextLabel" parent="BattleTimer"]
+offset_left = 620.0
+offset_top = -9.0
+offset_right = 828.0
+offset_bottom = 31.0
+theme_override_font_sizes/normal_font_size = 25
+text = "0"
+
+[node name="Clock" type="Sprite2D" parent="BattleTimer"]
+position = Vector2(587, 9)
+scale = Vector2(2.5, 2.358)
+texture = ExtResource("14_0p8dj")
+
+[node name="Gauge" parent="." instance=ExtResource("15_mlxlj")]
+position = Vector2(-681, -265)
 
 [connection signal="pressed" from="EndTurnButton" to="BattleManager" method="_on_end_turn_button_pressed"]
